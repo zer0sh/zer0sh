@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="32" viewBox="0 0 108 32" fill="none" role="img" aria-label="JavaScript">
+  <title>JavaScript</title>
+  <defs>
+    <style>
+      .pill-bg {
+        fill: #131316;
+        stroke: #1f6feb;
+        stroke-width: 1.3;
+        transition: all 0.2s ease;
+      }
+      .pill-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        fill: #e2e2e5;
+        letter-spacing: 0.2px;
+      }
+    </style>
+  </defs>
+
+  <!-- Material You Pill: rx="16" para redondeo total + Borde Azul Intenso #1f6feb -->
+  <rect x="0.8" y="0.8" width="106.4" height="30.4" rx="15" class="pill-bg" />
+
+  <!-- Leading Icon (16x16) -->
+  <g transform="translate(10, 8) scale(0.666)">
+    <path fill="#F7DF1E" d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.017-.835-1.879-2.604-2.537l-.546-.205c-.868-.328-1.303-.585-1.303-1.04 0-.41.312-.66 1.01-.66.673 0 1.066.248 1.344.757l1.458-.934c-.468-.834-1.288-1.32-2.738-1.32-1.745 0-2.857.947-2.857 2.316 0 1.272.845 1.95 2.228 2.477l.546.208c.95.362 1.378.697 1.378 1.18 0 .542-.486.858-1.318.858-.962 0-1.508-.43-1.81-1.03l-1.48.868c.498 1.05 1.488 1.705 3.194 1.705 1.988 0 3.12-.99 3.12-2.42l-.004-.247h-.069zm-7.65-5.836h-1.872v6.417c0 1.258-.585 1.72-1.688 1.72-.44 0-.82-.06-1.08-.16V18.9c.22.06.46.09.73.09.52 0 .68-.22.68-.78V12.44h1.872v-.002l1.358.002z"/>
+  </g>
+
+  <!-- Label -->
+  <text x="32" y="20.5" class="pill-text">JavaScript</text>
+</svg>

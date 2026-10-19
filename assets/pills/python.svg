@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="81" height="32" viewBox="0 0 81 32" fill="none" role="img" aria-label="Python">
+  <title>Python</title>
+  <defs>
+    <style>
+      .pill-bg {
+        fill: #131316;
+        stroke: #1f6feb;
+        stroke-width: 1.3;
+        transition: all 0.2s ease;
+      }
+      .pill-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        fill: #e2e2e5;
+        letter-spacing: 0.2px;
+      }
+    </style>
+  </defs>
+
+  <!-- Material You Pill: rx="16" para redondeo total + Borde Azul Intenso #1f6feb -->
+  <rect x="0.8" y="0.8" width="79.4" height="30.4" rx="15" class="pill-bg" />
+
+  <!-- Leading Icon (16x16) -->
+  <g transform="translate(10, 8) scale(0.666)">
+    <path fill="#3776AB" d="M11.914 0C5.825 0 6.2 2.656 6.2 2.656l.006 2.75h5.813v.827H3.904S0 5.79 0 11.954c0 6.163 3.407 5.94 3.407 5.94h2.036v-2.868s-.11-3.419 3.35-3.419h5.787v-.855H8.797v-4.14s.46-5.592 6.55-5.592c6.09 0 5.568 5.034 5.568 5.034v2.75h-5.813v.827h8.115S24 9.87 24 3.914C24-2.042 20.25 0 11.914 0zm-2.07 1.63a1.002 1.002 0 110 2.004 1.002 1.002 0 010-2.004zm2.242 22.37c6.09 0 5.714-2.656 5.714-2.656l-.006-2.75h-5.813v-.827h8.115s3.904.444 3.904-5.72c0-6.164-3.407-5.94-3.407-5.94h-2.036v2.868s.11 3.419-3.35 3.419h-5.787v.855h5.787v4.14s-.46 5.592-6.55 5.592c-6.09 0-5.568-5.034-5.568-5.034v-2.75h5.813v-.827H3.885S0 14.13 0 20.086c0 5.956 3.75 3.914 12.086 3.914zm2.07-1.63a1.002 1.002 0 110-2.004 1.002 1.002 0 010 2.004z"/>
+  </g>
+
+  <!-- Label -->
+  <text x="32" y="20.5" class="pill-text">Python</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="75" height="32" viewBox="0 0 75 32" fill="none" role="img" aria-label="Linux">
+  <title>Linux</title>
+  <defs>
+    <style>
+      .pill-bg {
+        fill: #131316;
+        stroke: #1f6feb;
+        stroke-width: 1.3;
+        transition: all 0.2s ease;
+      }
+      .pill-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        fill: #e2e2e5;
+        letter-spacing: 0.2px;
+      }
+    </style>
+  </defs>
+
+  <!-- Material You Pill: rx="16" para redondeo total + Borde Azul Intenso #1f6feb -->
+  <rect x="0.8" y="0.8" width="73.4" height="30.4" rx="15" class="pill-bg" />
+
+  <!-- Leading Icon (16x16) -->
+  <g transform="translate(10, 8) scale(0.666)">
+    <path fill="#FCC624" d="M12.003 0C9.645 0 7.893 1.83 7.893 4.195c0 .324.037.64.108.948-1.745.71-2.983 2.433-2.983 4.453 0 1.074.35 2.067.944 2.875C4.05 13.568 2.75 15.688 2.75 18.156c0 3.228 4.143 5.844 9.253 5.844s9.253-2.616 9.253-5.844c0-2.468-1.3-4.588-3.212-5.685.594-.808.944-1.801.944-2.875 0-2.02-1.238-3.743-2.983-4.453.07-.308.108-.624.108-.948C16.113 1.83 14.36 0 12.003 0z"/>
+  </g>
+
+  <!-- Label -->
+  <text x="32" y="20.5" class="pill-text">Linux</text>
+</svg>

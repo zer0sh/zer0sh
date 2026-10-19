@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="32" viewBox="0 0 88 32" fill="none" role="img" aria-label="MariaDB">
+  <title>MariaDB</title>
+  <defs>
+    <style>
+      .pill-bg {
+        fill: #131316;
+        stroke: #1f6feb;
+        stroke-width: 1.3;
+        transition: all 0.2s ease;
+      }
+      .pill-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        fill: #e2e2e5;
+        letter-spacing: 0.2px;
+      }
+    </style>
+  </defs>
+
+  <!-- Material You Pill: rx="16" para redondeo total + Borde Azul Intenso #1f6feb -->
+  <rect x="0.8" y="0.8" width="86.4" height="30.4" rx="15" class="pill-bg" />
+
+  <!-- Leading Icon (16x16) -->
+  <g transform="translate(10, 8) scale(0.666)">
+    <path fill="#C0765A" d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm1.78 17.5h-3.56l-1.12-3.1h5.8l-1.12 3.1zm2.34-6.42l-2.02 5.56H9.9l-2.02-5.56 1.78-4.91h4.68l1.78 4.91z"/>
+  </g>
+
+  <!-- Label -->
+  <text x="32" y="20.5" class="pill-text">MariaDB</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="32" viewBox="0 0 88 32" fill="none" role="img" aria-label="Argo CD">
+  <title>Argo CD</title>
+  <defs>
+    <style>
+      .pill-bg {
+        fill: #131316;
+        stroke: #1f6feb;
+        stroke-width: 1.3;
+        transition: all 0.2s ease;
+      }
+      .pill-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        fill: #e2e2e5;
+        letter-spacing: 0.2px;
+      }
+    </style>
+  </defs>
+
+  <!-- Material You Pill: rx="16" para redondeo total + Borde Azul Intenso #1f6feb -->
+  <rect x="0.8" y="0.8" width="86.4" height="30.4" rx="15" class="pill-bg" />
+
+  <!-- Leading Icon (16x16) -->
+  <g transform="translate(10, 8) scale(0.666)">
+    <path fill="#EF7B4D" d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.66 16.92l-5.66-3.27-5.66 3.27v-6.54l5.66-3.27 5.66 3.27v6.54z"/>
+  </g>
+
+  <!-- Label -->
+  <text x="32" y="20.5" class="pill-text">Argo CD</text>
+</svg>

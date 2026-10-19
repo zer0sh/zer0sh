@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="690" height="240" viewBox="0 0 690 240" fill="none" role="img" aria-label="General Engineering Summary">
+  <title>General Consolidated Engineering Summary (Material You 3)</title>
+  <defs>
+    <style>
+      .font-m3 { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .header-title { font-weight: 700; font-size: 16px; fill: #d3e3fd; letter-spacing: 0.2px; }
+      .header-sub { font-weight: 400; font-size: 12px; fill: #8e9196; }
+      
+      .val-white { font-weight: 800; font-size: 28px; fill: #ffffff; text-anchor: middle; }
+      .val-red { font-weight: 800; font-size: 28px; fill: #f2b8b5; text-anchor: middle; }
+      
+      .lbl-blue { font-weight: 700; font-size: 11px; fill: #a8c7fa; text-anchor: middle; letter-spacing: 0.5px; text-transform: uppercase; }
+      .lbl-red { font-weight: 700; font-size: 11px; fill: #f2b8b5; text-anchor: middle; letter-spacing: 0.5px; text-transform: uppercase; }
+      .subtext { font-weight: 400; font-size: 11px; fill: #8e9196; text-anchor: middle; }
+      
+      .chip-lbl { font-weight: 600; font-size: 12px; fill: #c4c7c5; }
+      .chip-val { font-weight: 700; font-size: 13px; fill: #a8c7fa; }
+    </style>
+  </defs>
+
+  <!-- Surface Container M3 (690px) -->
+  <rect x="1" y="1" width="688" height="238" rx="22" fill="#131316" stroke="#2d3036" stroke-width="1.2"/>
+
+  <!-- Header -->
+  <g transform="translate(26, 26)">
+    <circle cx="6" cy="6" r="6" fill="#a8c7fa" />
+    <text x="22" y="10" class="font-m3 header-title">Consolidated Engineering Summary</text>
+    <text x="22" y="24" class="font-m3 header-sub">Combined Metrics (Personal &amp; Enterprise Production)</text>
+  </g>
+
+  <!-- 3 Top Cards (Ancho: 200px cada una) -->
+  <!-- 1. Contributions -->
+  <g transform="translate(26, 70)">
+    <rect width="200" height="92" rx="14" fill="#1e1f24" stroke="#33353b" stroke-width="1"/>
+    <text x="100" y="24" class="font-m3 lbl-blue">TOTAL CONTRIBUTIONS</text>
+    <text x="100" y="58" class="font-m3 val-white">3,788+</text>
+    <text x="100" y="78" class="font-m3 subtext">All-time tracked</text>
+  </g>
+
+  <!-- 2. Projects (ROJO M3) -->
+  <g transform="translate(245, 70)">
+    <rect width="200" height="92" rx="14" fill="#371e1d" stroke="#602724" stroke-width="1.2"/>
+    <text x="100" y="24" class="font-m3 lbl-red">PROJECTS IMPACTED</text>
+    <text x="100" y="58" class="font-m3 val-red">99+</text>
+    <text x="100" y="78" class="font-m3 subtext" fill="#e4afaf">Repos interacted</text>
+  </g>
+
+  <!-- 3. Streak -->
+  <g transform="translate(464, 70)">
+    <rect width="200" height="92" rx="14" fill="#1e1f24" stroke="#33353b" stroke-width="1"/>
+    <text x="100" y="24" class="font-m3 lbl-blue">LONGEST STREAK</text>
+    <text x="100" y="58" class="font-m3 val-white">82 Days</text>
+    <text x="100" y="78" class="font-m3 subtext">Continuous delivery</text>
+  </g>
+
+  <!-- 4 Chips Inferiores (Ancho: 152px cada uno) -->
+  <g transform="translate(26, 178)">
+    <!-- Commits -->
+    <g transform="translate(0, 0)">
+      <rect width="152" height="36" rx="10" fill="#1a222f" stroke="#253549" stroke-width="1"/>
+      <text x="14" y="23" class="font-m3 chip-lbl">Commits</text>
+      <text x="138" y="23" class="font-m3 chip-val" text-anchor="end">3,083+</text>
+    </g>
+    <!-- PRs and Issues -->
+    <g transform="translate(162, 0)">
+      <rect width="152" height="36" rx="10" fill="#1a222f" stroke="#253549" stroke-width="1"/>
+      <text x="12" y="23" class="font-m3 chip-lbl">PRs and Issues</text>
+      <text x="138" y="23" class="font-m3 chip-val" text-anchor="end">705+</text>
+    </g>
+    <!-- Code Reviews -->
+    <g transform="translate(324, 0)">
+      <rect width="152" height="36" rx="10" fill="#1a222f" stroke="#253549" stroke-width="1"/>
+      <text x="14" y="23" class="font-m3 chip-lbl">Code Reviews</text>
+      <text x="138" y="23" class="font-m3 chip-val" text-anchor="end">120+</text>
+    </g>
+    <!-- Repos -->
+    <g transform="translate(486, 0)">
+      <rect width="152" height="36" rx="10" fill="#1a222f" stroke="#253549" stroke-width="1"/>
+      <text x="14" y="23" class="font-m3 chip-lbl">Active Repos</text>
+      <text x="138" y="23" class="font-m3 chip-val" text-anchor="end">99+</text>
+    </g>
+  </g>
+</svg>

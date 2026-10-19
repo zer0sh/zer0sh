@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="61" height="32" viewBox="0 0 61 32" fill="none" role="img" aria-label="PHP">
+  <title>PHP</title>
+  <defs>
+    <style>
+      .pill-bg {
+        fill: #131316;
+        stroke: #1f6feb;
+        stroke-width: 1.3;
+        transition: all 0.2s ease;
+      }
+      .pill-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        fill: #e2e2e5;
+        letter-spacing: 0.2px;
+      }
+    </style>
+  </defs>
+
+  <!-- Material You Pill: rx="16" para redondeo total + Borde Azul Intenso #1f6feb -->
+  <rect x="0.8" y="0.8" width="59.4" height="30.4" rx="15" class="pill-bg" />
+
+  <!-- Leading Icon (16x16) -->
+  <g transform="translate(10, 8) scale(0.666)">
+    <path fill="#777BB4" d="M12.002 4.545c-6.627 0-12 3.338-12 7.455 0 4.117 5.373 7.455 12 7.455 6.627 0 12-3.338 12-7.455 0-4.117-5.373-7.455-12-7.455zm-6.25 10.455H3.94l1.32-6.364h2.463c1.543 0 2.454.773 2.164 2.182-.33 1.62-1.636 4.182-4.136 4.182zm8.09 0h-1.81l1.318-6.364h1.81l-.318 1.545c.682-.955 1.727-1.545 2.818-1.545 1.545 0 2.273.864 1.955 2.41-.364 1.772-1.728 3.954-3.5 3.954-.727 0-1.273-.318-1.545-.818L13.842 15zm8.09 0h-1.81l1.32-6.364h2.462c1.544 0 2.455.773 2.164 2.182-.33 1.62-1.636 4.182-4.136 4.182z"/>
+  </g>
+
+  <!-- Label -->
+  <text x="32" y="20.5" class="pill-text">PHP</text>
+</svg>
